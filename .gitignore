@@ -151,11 +151,11 @@ activemq-data/
 .env
 .envrc
 .venv
-env/
-venv/
-ENV/
-env.bak/
-venv.bak/
+/env/
+/venv/
+/ENV/
+/env.bak/
+/venv.bak/
 
 # Spyder project settings
 .spyderproject
@@ -208,19 +208,6 @@ tempCodeRunnerFile.py
 
 # PyPI configuration file
 .pypirc
-
-# Research artifacts
-data/raw/
-data/generated/
-results/
-runs/
-checkpoints/
-wandb/
-lightning_logs/
-*.ckpt
-*.pt
-*.pth
-.DS_Store
 
 # Marimo
 marimo/_static/
