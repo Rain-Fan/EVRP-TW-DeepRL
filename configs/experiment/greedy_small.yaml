@@ -1,0 +1,6 @@
+name: greedy-small
+problem_config: configs/problem/small.yaml
+seeds: [11, 22, 33]
+solver: greedy
+output: results/greedy-small.jsonl
+
