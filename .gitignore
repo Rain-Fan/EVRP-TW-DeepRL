@@ -209,6 +209,24 @@ tempCodeRunnerFile.py
 # PyPI configuration file
 .pypirc
 
+# Research outputs
+experiments/logs/*
+!experiments/logs/.gitkeep
+experiments/results/baseline/*
+!experiments/results/baseline/.gitkeep
+experiments/results/reinforce/*
+!experiments/results/reinforce/.gitkeep
+experiments/results/ppo/*
+!experiments/results/ppo/.gitkeep
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+*.pt
+*.pth
+*.ckpt
+.DS_Store
+
 # Marimo
 marimo/_static/
 marimo/_lsp/
